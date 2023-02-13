@@ -18,18 +18,19 @@ function TextForm() {
 
   return (
     <>
-      <label htmlFor="Text" className="Label">
-        <h1>Ingrese Texto</h1>
-      </label>
-      <textarea
-        className="TextArea"
-        name="Text"
-        id="Text"
-        cols="100"
-        rows="40"
-        onChange={onSearchValueChange}
-      ></textarea>
-      <Counter lettersCounter={lettersCounter} wordsCounter={wordsCounter} />
+      <div className="Container">
+        <label className="Label">
+          <h1 className="Title">Ingrese Texto</h1>
+        </label>
+        <textarea
+          className="TextArea"
+          name="Text"
+          cols="100"
+          rows="40"
+          onChange={onSearchValueChange}
+        ></textarea>
+        <Counter lettersCounter={lettersCounter} wordsCounter={wordsCounter} />
+      </div>
     </>
   );
 }

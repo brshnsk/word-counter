@@ -1,5 +1,8 @@
-
-
+.Container{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
 .TextArea{
     display: grid;
     place-items: center;
@@ -8,24 +11,22 @@
 @media (max-width: 780px){
     .TextArea{
         width: 424px;
-        height: 75vh;
-        margin-left: 20px;
+       
+        
     }
 }
 
 @media (max-width: 640px){
     .TextArea{
         width: 375px;
-        height: 75vh;
-        margin-left: 24px;
+       
     }
 }
 
 @media (max-width: 375px){
     .TextArea{
         width: 325px;
-        height: 75vh;
-        margin-left: 20px;
+        
     }
 }
 
