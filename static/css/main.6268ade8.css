@@ -1,0 +1,2 @@
+body{align-items:center;display:flex;font-family:Roboto,sans-serif;justify-content:center;margin:0;text-align:center}.Container{text-align:center}.Container,.TextArea{display:grid;place-items:center}@media (max-width:780px){.TextArea{width:424px}}@media (max-width:640px){.TextArea{width:375px}}@media (max-width:375px){.TextArea{width:325px}}@media (max-width:320px){.TextArea{height:75vh;margin-left:20px;width:270px}}
+/*# sourceMappingURL=main.6268ade8.css.map*/
